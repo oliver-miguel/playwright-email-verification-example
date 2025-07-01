@@ -1,10 +1,10 @@
 # Playwright Registration & Email Verification Example (Tigrmail)
 
-This project demonstrates how to write an end-to-end (E2E) registration and email verification test using [Playwright](https://playwright.dev/) and [Tigrmail](https://tigrmail.com) as the email API.
+This project demonstrates how to write an end-to-end (E2E) registration and email verification test using [Playwright](https://playwright.dev/) and [Tigrmail](https://tigrmail.com?utm_source=github-pw-example&utm_medium=readme) as the email API.
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/) installed
-- [Tigrmail](https://tigrmail.com) account (for API token)
+- [Tigrmail](https://tigrmail.com?utm_source=github-pw-example&utm_medium=readme) account (for API token)
 
 ## Setup
 1. **Install dependencies**
@@ -12,7 +12,7 @@ This project demonstrates how to write an end-to-end (E2E) registration and emai
    npm install
    ```
 2. **Get a Tigrmail API token**
-   - Sign up or log in at [https://console.tigrmail.com](https://console.tigrmail.com)
+   - Sign up or log in at [https://console.tigrmail.com](https://console.tigrmail.com?utm_source=github-pw-example&utm_medium=readme)
    - Copy your API token
 3. **Configure environment variables**
    - Copy `.env.example` to `.env`
@@ -33,4 +33,4 @@ npx playwright test --ui
 
 ---
 
-For more details about Tigrmail, visit [tigrmail.com](https://tigrmail.com). 
+For more details about Tigrmail, visit [tigrmail.com](https://tigrmail.com?utm_source=github-pw-example&utm_medium=readme). 
