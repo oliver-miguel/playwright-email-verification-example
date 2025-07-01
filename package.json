@@ -1,0 +1,38 @@
+{
+  "name": "playwright-email-verification-example",
+  "version": "1.0.0",
+  "description": "Example Playwright end-to-end test for user registration and email verification using Tigrmail API.",
+  "keywords": [
+    "playwright",
+    "tigrmail",
+    "email verification",
+    "registration",
+    "signup",
+    "end-to-end",
+    "e2e",
+    "testing",
+    "nodejs",
+    "automation",
+    "api",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/furionix/playwright-email-verification-example.git"
+  },
+  "author": "Furionix Labs",
+  "license": "MIT",
+  "homepage": "https://github.com/furionix/playwright-email-verification-example#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^24.0.8",
+    "cheerio": "^1.1.0",
+    "tigrmail": "^1.0.9"
+  },
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0"
+  }
+}
